@@ -3,11 +3,17 @@
 # a game simulating rock, paper, scissors 
 # with the user competing with the computer
 
+import os
 import random
+from dotenv import load_dotenv
 
-user_name=input("Hi! What is your name? ")
-# prompts the user to input their name so the program can refer to them
-print("Welcome to the Rock Paper Scissors game, " + user_name + "!")
+load_dotenv() #invokes/uses the function we got from the third party package
+
+PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One") # uses os module to read name
+
+print("-------------------")
+print(f"Welcome {Player One} to my Rock-Paper-Scissors game...")
+print("-------------------")
 # introduces the user to the game 
 
 user_choice=input("Please choose either 'rock', 'paper', or 'scissors': ")
