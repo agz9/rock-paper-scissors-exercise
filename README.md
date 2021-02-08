@@ -43,7 +43,8 @@ Run the game script:
 
 ```py
 python game.py
+``` 
 
-## Once the game script is run, the user will enter either rock, paper, or scissors. If they do not enter one of these options, an error message will appear. Once the user enters one of the options, the program will simulate the computer's choice and determine a winner. 
+Once the game script is run, the user will enter either rock, paper, or scissors. If they do not enter one of these options, an error message will appear. Once the user enters one of the options, the program will simulate the computer's choice and determine a winner. 
 
 
