@@ -51,3 +51,6 @@ elif user_choice == "scissors":
 else:
     print("OOPS SOMETHING WENT WRONG.")
     # this message will come up if the user says anything besides rock, paper, or scissors
+
+exit()
+# will exit out of the program completely 
